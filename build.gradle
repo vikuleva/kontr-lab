@@ -10,6 +10,8 @@ dependencies {
     testImplementation 'junit:junit:4.13.1'
 }
 
+apply plugin: 'jacoco'
+
 group = 'org.douggschwind'
 version = '1.0-SNAPSHOT'
 description = 'Games'
